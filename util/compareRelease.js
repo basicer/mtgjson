@@ -1,14 +1,14 @@
 "use strict";
 /*global setImmediate: true*/
 
-var base = require("xbase"),
-	httpUtil = require("xutil").http,
-	fs = require("fs"),
-	shared = require("shared"),
-	color = require("cli-color"),
-	diffUtil = require("xutil").diff,
-	path = require("path"),
-	tiptoe = require("tiptoe");
+var base = require("xbase");
+var httpUtil = require("xutil").http;
+var fs = require("fs");
+var shared = require("shared");
+var color = require("cli-color");
+var diffUtil = require("xutil").diff;
+var path = require("path");
+var tiptoe = require("tiptoe");
 
 var setsToDo = shared.getSetsToDo();
 var updatedSetFiles = [];

@@ -1,11 +1,11 @@
 /*jslint node: true */
 "use strict";
 
-var base = require("xbase"),
-	C = require("C"),
-	shared = require("shared"),
-	tiptoe = require("tiptoe"),
-	rip = require("./rip.js");
+var base = require('xbase');
+var C = require('../shared/C');
+var shared = require('shared');
+var tiptoe = require('tiptoe');
+var rip = require('./rip');
 
 var setsToDo = shared.getSetsToDo();
 

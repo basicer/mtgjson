@@ -1,10 +1,10 @@
 "use strict";
 
-var base = require("xbase"),
-	shared = require("shared"),
-	fs = require("fs"),
-	path = require("path"),
-	tiptoe = require("tiptoe");
+var base = require("xbase");
+var shared = require("shared");
+var fs = require("fs");
+var path = require("path");
+var tiptoe = require("tiptoe");
 
 var CARD_FIELDS = [ "name", "number", "rarity", "type", "manaCost", "text", "flavor", "artist", "power", "toughness"];
 

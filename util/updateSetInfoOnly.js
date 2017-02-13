@@ -1,12 +1,12 @@
 "use strict";
 /*global setImmediate: true*/
 
-var base = require("xbase"),
-	C = require("C"),
-	fs = require("fs"),
-	shared = require("shared"),
-	path = require("path"),
-	tiptoe = require("tiptoe");
+var base = require("xbase");
+var C = require("../shared/C");
+var fs = require("fs");
+var shared = require("shared");
+var path = require("path");
+var tiptoe = require("tiptoe");
 
 shared.getSetsToDo().serialForEach(processSet, function(err) {
 	if (err) {

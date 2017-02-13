@@ -2,10 +2,10 @@
 'use strict';
 
 var base = require('xbase');
-var C = require('C');
+var C = require('../shared/C');
 var shared = require('shared');
 var tiptoe = require('tiptoe');
-var rip = require('./rip.js');
+var rip = require('./rip');
 var async = require('async');
 
 var setsToDo = shared.getSetsToDo();

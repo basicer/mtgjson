@@ -1,11 +1,11 @@
 "use strict";
 
-var base = require("xbase"),
-	fs = require("fs"),
-	path = require("path"),
-	shared = require("shared"),
-	tiptoe = require("tiptoe"),
-	rip = require('../build/rip.js');
+var base = require("xbase");
+var fs = require("fs");
+var path = require("path");
+var shared = require("shared");
+var tiptoe = require("tiptoe");
+var rip = require('../build/rip');
 
 shared.getSetsToDo().serialForEach(processSet, function(err) {
 	if(err) {

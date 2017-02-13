@@ -1,8 +1,8 @@
 "use strict";
 
-var C = require("C"),
-	shared = require("shared"),
-	diffUtil = require("xutil").diffUtil;
+var C = require('../shared/C');
+var shared = require("shared");
+var diffUtil = require("xutil").diffUtil;
 
 /**
  * Load the codes of all sets on C.SETS

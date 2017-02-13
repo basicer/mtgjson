@@ -1,19 +1,19 @@
 "use strict";
 
-var base = require("xbase"),
-	C = require("C"),
-	hash = require("mhash"),
-	path = require("path"),
-	moment = require("moment"),
-	domino = require("domino"),
-	querystring = require("querystring"),
-	tiptoe = require("tiptoe"),
-	httpUtil = require("xutil").http,
-	fs = require("fs"),
-	urlUtil = require("xutil").url,
-	url = require("url"),
-	unicodeUtil = require("xutil").unicode,
-	cache = require('cache');
+var base = require("xbase");
+var C = require('./C');
+var hash = require("mhash");
+var path = require("path");
+var moment = require("moment");
+var domino = require("domino");
+var querystring = require("querystring");
+var tiptoe = require("tiptoe");
+var httpUtil = require("xutil").http;
+var fs = require("fs");
+var urlUtil = require("xutil").url;
+var url = require("url");
+var unicodeUtil = require("xutil").unicode;
+var cache = require('cache');
 
 exports.cache = cache(path.join(__dirname, '..', 'cache'), { compress: true });
 

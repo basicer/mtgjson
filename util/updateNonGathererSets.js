@@ -1,10 +1,10 @@
 "use strict";
 
-var base = require("xbase"),
-	C = require("C"),
-	path = require("path"),
-	runUtil = require("xutil").run,
-	tiptoe = require("tiptoe");
+var base = require("xbase");
+var C = require("../shared/C");
+var path = require("path");
+var runUtil = require("xutil").run;
+var tiptoe = require("tiptoe");
 
 tiptoe(
 	function updateNonGathererSets()

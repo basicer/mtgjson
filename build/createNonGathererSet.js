@@ -1,13 +1,13 @@
 /*jslint node: true */
 "use strict";
 
-var base = require("xbase"),
-	C = require("C"),
-	path = require("path"),
-	moment = require("moment"),
-	fs = require("fs"),
-	shared = require("shared"),
-	tiptoe = require("tiptoe");
+var base = require("xbase");
+var C = require('../shared/C');
+var path = require("path");
+var moment = require("moment");
+var fs = require("fs");
+var shared = require("shared");
+var tiptoe = require("tiptoe");
 
 var targetSetCode = process.argv[2];
 if(!C.SETS_NOT_ON_GATHERER.contains(targetSetCode))

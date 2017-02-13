@@ -1,13 +1,13 @@
 "use strict";
 /*global setImmediate: true*/
 
-var base = require("xbase"),
-	C = require("C"),
-	fs = require("fs"),
-	shared = require("shared"),
-	path = require("path"),
-	async = require('async'),
-	tiptoe = require("tiptoe");
+var base = require("xbase");
+var C = require('../shared/C');
+var fs = require("fs");
+var shared = require("shared");
+var path = require("path");
+var async = require('async');
+var tiptoe = require("tiptoe");
 
 var VALID_TYPES = [ "oracle", "original", "languages", "printings", "legalities", "mcilist", "listings" ];
 

@@ -1,20 +1,19 @@
 /*jslint node: true */
 'use strict';
 
-var base = require("xbase"),
-	C = require("C"),
-	fs = require("fs"),
-	url = require("url"),
-	moment = require("moment"),
-	unicodeUtil = require("xutil").unicode,
-	diffUtil = require("xutil").diff,
-	path = require("path"),
-	shared = require("shared"),
-	urlUtil = require("xutil").url,
-	querystring = require("querystring"),
-	tiptoe = require("tiptoe"),
-	async = require('async');
-
+var base = require("xbase");
+var C = require('../shared/C');
+var fs = require("fs");
+var url = require("url");
+var moment = require("moment");
+var unicodeUtil = require("xutil").unicode;
+var diffUtil = require("xutil").diff;
+var path = require("path");
+var shared = require("shared");
+var urlUtil = require("xutil").url;
+var querystring = require("querystring");
+var tiptoe = require("tiptoe");
+var async = require('async');
 
 (function (exports) {
 
