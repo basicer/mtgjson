@@ -5182,4 +5182,6 @@ Array.prototype.pushAll = function(otherArray) {
 	    'KLD'
 	];
 
+	exports.abilities = require('./abilities');
+
 })(typeof exports==="undefined" ? window.C={} : exports);
