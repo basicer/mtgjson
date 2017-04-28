@@ -26,6 +26,7 @@ Array.prototype.pushAll = function(otherArray) {
   var DDS = require('./sets/DDS');
   var AKH_SET = require('./sets/AKH');
   var MPS_AKH_SET = require('./sets/MPS_AKH');
+  var W17_SET = require('./sets/W17');
 
   exports.SETS = [
     {
@@ -3073,6 +3074,7 @@ Array.prototype.pushAll = function(otherArray) {
     {
       name : "Shadows over Innistrad",
       code : "SOI",
+      magicCardsInfoCode : "soi",
       releaseDate : "2016-04-08",
       border : "black",
       type : "expansion",
@@ -3106,6 +3108,7 @@ Array.prototype.pushAll = function(otherArray) {
       // http://magic.wizards.com/en/articles/archive/news/announcing-eldritch-moon-2016-02-08
       name : 'Eldritch Moon',
       code : 'EMN',
+      magicCardsInfoCode : "emn",
       releaseDate : '2016-07-22',
       border : 'black',
       type : 'expansion',
@@ -3145,6 +3148,7 @@ Array.prototype.pushAll = function(otherArray) {
       // http://magic.wizards.com/en/content/kaladesh-information
       name : "Kaladesh",
       code : "KLD",
+      magicCardsInfoCode : "kld",
       releaseDate : "2016-09-30",
       border : "black",
       type : "expansion",
@@ -3186,6 +3190,7 @@ Array.prototype.pushAll = function(otherArray) {
     {
       name : "Aether Revolt",
       code : "AER",
+      magicCardsInfoCode : "aer",
       releaseDate : "2017-01-20",
       border : "black",
       block : 'Kaladesh',
@@ -3202,7 +3207,8 @@ Array.prototype.pushAll = function(otherArray) {
     },
     DDS,
     AKH_SET,
-    MPS_AKH_SET
+    MPS_AKH_SET,
+    W17_SET
   ];
 
   exports.IGNORE_GATHERER_PRINTINGS = ["Promo set for Gatherer"];
