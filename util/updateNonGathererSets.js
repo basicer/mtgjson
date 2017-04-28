@@ -1,7 +1,7 @@
 "use strict";
 
-var base = require("xbase"),
-	C = require("C"),
+var base = require("@sembiance/xbase"),
+	C = require("../shared/C"),
 	path = require("path"),
 	runUtil = require("xutil").run,
 	tiptoe = require("tiptoe");

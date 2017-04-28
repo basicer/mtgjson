@@ -1,10 +1,10 @@
 "use strict";
 /*global setImmediate: true*/
 
-var base = require("xbase"),
-	C = require("C"),
+var base = require("@sembiance/xbase"),
+	C = require("../shared/C"),
 	fs = require("fs"),
-	shared = require("shared"),
+	shared = require("../shared/shared"),
 	path = require("path"),
 	tiptoe = require("tiptoe");
 

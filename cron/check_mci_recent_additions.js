@@ -3,7 +3,7 @@
 "use strict";
 /*global setImmediate: true*/
 
-var base = require("xbase"),
+var base = require("@sembiance/xbase"),
 	fs = require("fs"),
 	url = require("url"),
 	path = require("path"),

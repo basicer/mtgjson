@@ -2,9 +2,9 @@
 
 "use strict";
 
-var base = require("xbase"),
+var base = require("@sembiance/xbase"),
 	url = require("url"),
-	C = require("C"),
+	C = require("../shared/C"),
 	path = require("path"),
 	httpUtil = require("xutil").http,
 	domino = require("domino"),

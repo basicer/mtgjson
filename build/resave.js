@@ -1,11 +1,11 @@
 /*jslint node: true */
 "use strict";
 
-var base = require("xbase"),
-	C = require("C"),
+var base = require("@sembiance/xbase"),
+	C = require("../shared/C"),
 	fs = require("fs"),
 	path = require("path"),
-	shared = require("shared"),
+	shared = require("../shared/shared"),
 	tiptoe = require("tiptoe");
 
 var setsToDo = shared.getSetsToDo();

@@ -3,9 +3,9 @@
 
 var fs = require('fs');
 var path = require('path');
-var base = require('xbase');
+var base = require('@sembiance/xbase');
 var C = require('C');
-var shared = require('shared');
+var shared = require('../shared/shared');
 var tiptoe = require('tiptoe');
 var rip = require('./rip.js');
 var async = require('async');

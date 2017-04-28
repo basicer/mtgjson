@@ -1,10 +1,10 @@
 "use strict";
 /*global setImmediate: true*/
 
-var base = require("xbase"),
+var base = require("@sembiance/xbase"),
 	httpUtil = require("xutil").http,
 	fs = require("fs"),
-	shared = require("shared"),
+	shared = require("../shared/shared"),
 	color = require("cli-color"),
 	diffUtil = require("xutil").diff,
 	path = require("path"),

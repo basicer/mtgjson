@@ -2,7 +2,7 @@
 
 "use strict";
 
-var base = require("xbase"),
+var base = require("@sembiance/xbase"),
 	fs = require("fs"),
 	path = require("path"),
 	httpUtil = require("xutil").http,
